@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green - Garden Plots & Full Maintenance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-[#222222] antialiased min-h-screen flex flex-col justify-between">
+
+    <header class="max-w-[800px] w-full mx-auto p-4 flex justify-between items-center border-b border-gray-100">
+        <a href="#" class="flex items-center space-x-2 group">
+            <svg class="h-10 w-10 text-[#388e3c] transition-transform group-hover:scale-105" viewBox="0 0 400 350" fill="currentColor">
+                <path d="M 215,65 C 235,65 250,85 240,115 C 220,115 200,95 215,65 Z" />
+                <path d="M 185,80 C 165,80 150,100 160,130 C 180,130 200,110 185,80 Z" />
+                <path d="M 194,105 Q 200,135 200,150 L 208,150 Q 208,135 202,105 Z" />
+                <path d="M 200,115 L 325,170 L 200,230 L 75,170 Z M 75,182 L 200,242 L 200,262 L 75,202 Z M 325,182 L 200,242 L 200,262 L 325,202 Z" />
+            </svg>
+            <span class="text-2xl font-extrabold text-[#1e3c1a] tracking-tight">Green</span>
+        </a>
+        <a href="#signup-target" class="bg-[#2d5a27] text-white px-5 py-2.5 rounded-xl font-bold hover:bg-[#1e3c1a] transition shadow-md hover:shadow-lg">Sign-up</a>
+    </header>
+
+    <main class="max-w-[800px] w-full mx-auto p-6 md:p-8 space-y-12 flex-grow">
+        
+        <section class="space-y-6">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-[#1e3c1a] leading-tight">
+                Green gives landless gardeners their own space to grow plants.
+            </h1>
+            <p class="text-lg md:text-xl font-semibold text-gray-700">
+                How it works: You pay monthly, we maintain your dedicated plot, and you simply show up to harvest.
+            </p>
+
+            <div class="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden shadow-lg border border-green-900/10">
+                <img 
+                    src="./Screenshot 2026-07-29 121737.jpg" 
+                    alt="Lush green garden meadow with bright yellow buttercups under dappled sunlight" 
+                    class="w-full h-full object-cover object-center transform hover:scale-105 transition duration-700 ease-out"
+                    onerror="this.onerror=null; this.src='https://placehold.co/800x400/2d5a27/ffffff?text=Lush+Garden+Plot';"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white text-sm font-medium bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">
+                    🌿 Your Personal Garden Plot
+                </span>
+            </div>
+        </section>
+
+        <section class="space-y-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-[#1e3c1a]">The Problem</h2>
+            <div class="bg-[#fdf3f2] border-l-4 border-[#d9534f] p-5 rounded-r-xl shadow-sm">
+                <p class="italic text-[#b52b27] text-base md:text-lg font-medium leading-relaxed">
+                    "I want to grow my own tomatoes and herbs, but my apartment balcony gets zero sunlight and community gardens have a 3-year waiting list."
+                </p>
+            </div>
+            <p class="text-gray-700 text-base md:text-lg leading-relaxed">
+                Right now, it is costing you another season of giving up on fresh food, wasting hours scrolling through dead-end municipal lists, and watching your gardening tools sit in a closet collecting dust.
+            </p>
+        </section>
+
+        <section class="space-y-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-[#1e3c1a]">What You Get & What It Costs</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Features List -->
+                <div class="space-y-4 pt-2">
+                    <p class="text-gray-700 text-base md:text-lg leading-relaxed">
+                        We partner with local landowners to carve out perfect micro-plots for urban residents. We do the heavy lifting so you can enjoy the fun parts of gardening.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-[#388e3c] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-gray-800"><strong>4x4ft Dedicated Plot:</strong> Exclusively yours for the season.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-[#388e3c] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-gray-800"><strong>Full Maintenance:</strong> We weed, water, and manage soil health daily.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-[#388e3c] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-gray-800"><strong>Harvest Anytime:</strong> Get a keycode to access the garden and pick your crops whenever they're ready.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Pricing Card -->
+                <div class="bg-white border-2 border-[#e5f4e3] rounded-2xl p-6 shadow-lg shadow-green-900/5 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-[#2d5a27] mb-2">The Harvest Plan</h3>
+                        <div class="flex items-baseline mb-4">
+                            <span class="text-4xl font-extrabold text-[#1e3c1a]">$49</span>
+                            <span class="text-gray-500 font-medium ml-2">/ month</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-6">Everything you need to grow your own food without the daily hassle.</p>
+                    </div>
+                    <a href="#signup-target" class="w-full block text-center bg-[#f0fdf4] text-[#2d5a27] border border-[#2d5a27] px-4 py-3 rounded-xl font-bold hover:bg-[#2d5a27] hover:text-white transition">
+                        Reserve Your Plot
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="signup-target" class="bg-gradient-to-br from-[#f0fdf4] to-[#dcfce7] rounded-3xl p-8 md:p-12 text-center mt-8 border border-green-100 shadow-inner">
+            <h2 class="text-2xl md:text-3xl font-extrabold text-[#1e3c1a] mb-4">Ready to start growing?</h2>
+            <p class="text-gray-700 text-lg mb-8 max-w-lg mx-auto">
+                Plots for the upcoming spring season are extremely limited. Join the waitlist now to secure your spot.
+            </p>
+            
+            <form onsubmit="event.preventDefault(); alert('Thanks for subscribing! We will notify you when a plot opens up.');" class="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+                <input 
+                    type="email" 
+                    placeholder="Enter your email address" 
+                    required 
+                    class="flex-grow px-5 py-3.5 rounded-xl border border-white focus:outline-none focus:ring-4 focus:ring-[#388e3c]/30 shadow-sm text-gray-800"
+                >
+                <button 
+                    type="submit" 
+                    class="bg-[#2d5a27] text-white px-6 py-3.5 rounded-xl font-bold hover:bg-[#1e3c1a] transition shadow-md whitespace-nowrap"
+                >
+                    Join Waitlist
+                </button>
+            </form>
+            <p class="text-xs text-gray-500 mt-4 flex items-center justify-center">
+                <svg class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                No credit card required. Cancel anytime.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-gray-100 mt-12 bg-gray-50">
+        <div class="max-w-[800px] mx-auto p-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 gap-4">
+            <p>&copy; 2026 Green Gardens Inc. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="#" class="hover:text-[#2d5a27] transition">Privacy</a>
+                <a href="#" class="hover:text-[#2d5a27] transition">Terms</a>
+                <a href="#" class="hover:text-[#2d5a27] transition">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
